@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    justify-content: space-around;
+}
+.InnerCards{
+    background-color: rgb(139, 139, 139);
+    width: 200px;
+    height: 320px;
+    margin: 50px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px black;
+}
+.Cards img{
+    width: 125px;
+    height: 125px;
+    margin: 25px;
+}
+.InnerCards div{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+.InnerCards button{
+    padding: 10px 15px;
+    border-radius: 15px;
+    background-color: blue;
+    border: none;
+}

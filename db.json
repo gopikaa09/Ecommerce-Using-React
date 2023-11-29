@@ -1,0 +1,110 @@
+{
+  "cart": [],
+  "users": [
+    {
+      "FirstName": "Gopika",
+      "LastName": "Guduru",
+      "email": "gopika.guduru@gmail.com",
+      "Password": "123456789",
+      "ConfirmPass": "123456789",
+      "id": 1
+    },
+    {
+      "FirstName": "Gopika",
+      "LastName": "Guduru",
+      "email": "gopika.guduru@gmail.com",
+      "Password": "123456789",
+      "ConfirmPass": "123456789",
+      "id": 2
+    },
+    {
+      "FirstName": "mano",
+      "LastName": "gopi",
+      "email": "mano@gmail.com",
+      "Password": "123456789",
+      "ConfirmPass": "123456789",
+      "id": 3
+    },
+    {
+      "FirstName": "Gopika",
+      "LastName": "Guduru",
+      "email": "gopika.guduru@gmail.com",
+      "Password": "123456789",
+      "ConfirmPass": "123456789",
+      "id": 4
+    },
+    {
+      "FirstName": "Gopika",
+      "LastName": "Guduru",
+      "email": "gopika.guduru@gmail.com",
+      "Password": "123456789",
+      "ConfirmPass": "123456789",
+      "id": 5
+    },
+    {
+      "FirstName": "Gopika",
+      "LastName": "Guduru",
+      "email": "gopika.guduru@gmail.com",
+      "Password": "123456789",
+      "ConfirmPass": "123456789",
+      "id": 6
+    },
+    {
+      "FirstName": "Gopika",
+      "LastName": "Guduru",
+      "email": "gopika.guduru@gmail.com",
+      "Password": "123456789",
+      "ConfirmPass": "123456789",
+      "id": 7
+    },
+    {
+      "FirstName": "Gopika",
+      "LastName": "Guduru",
+      "email": "gopika.guduru@gmail.com",
+      "Password": "123456789",
+      "ConfirmPass": "123456789",
+      "id": 8
+    },
+    {
+      "FirstName": "Nagendra",
+      "LastName": "Guduru",
+      "email": "vr.guduru@gmail.com",
+      "Password": "01478520",
+      "ConfirmPass": "01478520",
+      "id": 9
+    },
+    {
+      "FirstName": "Nagendra",
+      "LastName": "Guduru",
+      "email": "vr.guduru@gmail.com",
+      "Password": "01478520",
+      "ConfirmPass": "01478520",
+      "id": 10
+    },
+    {
+      "FirstName": "siva",
+      "LastName": "karnati",
+      "email": "siva@gmail.com",
+      "Password": "123456789",
+      "ConfirmPass": "123456789",
+      "id": 11
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+  background-color: bisque;
+  display: flex;
+}
+.container h2 {
+  font-family: "Edu TAS Beginner", cursive;
+  font-family: "Gluten", cursive;
+  font-family: "Mukta", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Rubik", sans-serif;
+  font-family: "Sedgwick Ave Display", cursive;
+  font-family: "Source Sans 3", sans-serif;
+  padding: 15px;
+}
+.container span{
+    font-size: 37px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container button{
+  background-color: grey;
+  padding: 15px;
+  border: none;
+  margin: 15px;
+  border-radius: 15px;
+}
+
+.right{
+  margin-left: 50%;
+}
