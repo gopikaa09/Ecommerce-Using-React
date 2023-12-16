@@ -1,7 +1,8 @@
 
 import axios from "axios";
-import React, { useContext, useState } from "react";
-import { LoginPro } from "../navigations/Navigator";
+import React, { useContext, useState } from "react"
+import styles from "./login.module.css"
+import { LoginPro } from "../navigations/Navigator"
 import { useNavigate } from "react-router-dom";
 
 function Logincompo() {
@@ -51,14 +52,14 @@ function Logincompo() {
   const handleRegister=()=>{
     navigate("/register")
   }
-
   return (
-    <div>
+    <div className={styles.container}>
       <h1>Login Page</h1>
       <form>
         <label htmlFor="Email">Email</label>
         <br />
         <input
+          className={styles.inputField}
           type="email"
           id="Email"
           value={email}
@@ -69,6 +70,7 @@ function Logincompo() {
         <label htmlFor="pass">Password</label>
         <br />
         <input
+          className={styles.inputField}
           type="password"
           id="pass"
           value={pass}
@@ -76,13 +78,43 @@ function Logincompo() {
           required
         />
         <br />
-        <input type="submit" onClick={handleLogin} />
-
+        <input className={styles.inputField} type="submit" onClick={handleLogin} />
         <button onClick={handleRegister}>Register Here..</button>
       </form>
-
     </div>
   );
+
+  // return (
+  //   <div>
+  //     <h1>Login Page</h1>
+  //     <form>
+  //       <label htmlFor="Email">Email</label>
+  //       <br />
+  //       <input
+  //         type="email"
+  //         id="Email"
+  //         value={email}
+  //         onChange={(data) => emailvalid(data)}
+  //         required
+  //       />
+  //       <br />
+  //       <label htmlFor="pass">Password</label>
+  //       <br />
+  //       <input
+  //         type="password"
+  //         id="pass"
+  //         value={pass}
+  //         onChange={(data) => passvalid(data)}
+  //         required
+  //       />
+  //       <br />
+  //       <input type="submit" onClick={handleLogin} />
+
+  //       <button onClick={handleRegister}>Register Here..</button>
+  //     </form>
+
+  //   </div>
+  // );
 }
 
 export default Logincompo;

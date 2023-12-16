@@ -19,15 +19,6 @@ function Cards() {
     }catch(error){
       console.log(error);
     }
-    // console.log(cart.length);
-    // if(cart.length===0){
-    //   Setcart([item])
-    // }else{
-    //   Setcart((preCart)=>[...preCart,item])
-    // }
-    
-    // navigate("/cart")
-    // console.log(cart);
   }
     const[products,setProducts]=useState([])
     useEffect(()=>{
@@ -44,14 +35,6 @@ function Cards() {
     },[])
 
 
-    useEffect(()=>{
-      axios.get("https://fakestoreapi.com/carts")
-      .then((a)=>{
-        console.log(a.data);
-      }).catch((b)=>{
-        console.log(b);
-      })
-    },[])
 
   return (
     <div className={style.Cards}>

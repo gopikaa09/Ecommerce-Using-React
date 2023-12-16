@@ -8,7 +8,6 @@ function Register() {
   const navigate=useNavigate()
   return (
     <div>
-      <h1>This is register page</h1>
       <button onClick={()=>navigate("/")} >Click to login</button>
       <Registercompo/>
     </div>

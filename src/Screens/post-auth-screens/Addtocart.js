@@ -1,11 +1,12 @@
 
 
 import React from 'react'
+import Cart from '../../Components/Cart'
 
 function Addtocart() {
   return (
     <div>
-      <h1>This is Add to cart</h1>
+      <Cart/>
     </div>
   )
 }
